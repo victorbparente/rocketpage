@@ -188,3 +188,16 @@ iframe {
     top: 2.5%;
     right: 24px;
 }
+
+/* === 404 === */
+.page_not_found {
+    position: relative;
+    margin-top: 5%;
+}
+
+.page_not_found h1, h2 {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+

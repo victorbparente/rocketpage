@@ -23,3 +23,7 @@ server.get("/courses", function(req, res) {
     console.log(infos[0].link)
     return res.render("courses", {items : infos})
 })
+
+server.use(function(req, res) {
+    res.status(404).render("not-found");
+  })
